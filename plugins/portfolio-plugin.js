@@ -3,18 +3,19 @@ const portfolio = [
     slug: "recaudar",
     category: "Software as a service",
     name: "Recaudar",
-    stack: "Laravel, VueJS, VueRouter, Vuex, TailwindCSS",
+    stack: "Laravel, VueJS, TailwindCSS, InertiaJS",
     image: "recaudar.png",
     github: "https://github.com/ArielMejiaDev/recaudar.com",
     demo: "",
     url: "https://recaudar.com",
     description: `
-      Since COVID-19 there are a lot foundations that needs more than ever help,
-      Recaudar.com is a Software as a service created with Laravel and VueJS ecosystem,
-      that allows any Guatemalan foundation (Central America country) to get donations from anywhere around the world,
-      it provides a subdomain site for every foundation with a front page, with different themes to select,
-      and a checkout to get donations, it also provides a dashboard to manage foundation content, media
-      and donations stats and reports.
+      <p class="my-4 text-gray-900 text-sm">
+        A Software as a service created with Laravel and VueJS ecosystem,
+        that allows any Guatemalan foundation (Central America country) to get donations from anywhere around the world,
+        it provides a subdomain site for every foundation with a front page, with
+        a checkout to get donations, it also provides a dashboard to manage foundation profile page themes, content, media,
+        donations stats and reports.
+      </p>
     `,
   },
   {
@@ -27,24 +28,19 @@ const portfolio = [
     demo: "https://www.youtube.com/watch?v=Qzr0b_92P4g",
     url: "https://arielmejiadev.github.io/LarapexCharts-Documentation/",
     description: `
-      <p class="my-4">
-        Create dashboards become a highly requested / popular feature,
-        between different projects, it became a repetitive and tedious task,
-        which took away development time and productivity.
+      <p class="my-4 text-gray-900 text-sm">
+        You need charts for your app?, you can trust in this package, it has <strong>Thousands of downloads</strong>
       </p>
 
-      <p class="my-4">
-        With more than 1,200 downloads on packagist around the world,
-        this package render charts in a much easier and efficient way,
-        this Laravel package provides a fluent api
-        that under the hood use a factory pattern to create chart objects, so you can share
-        the object as json to an API endpoint or pass every chart as variables to blade files.
+      <p class="my-4 text-gray-900 text-sm">
+        Installable with composer, it adds a simple API to write a chart object with PHP,
+        you can pass the chart as a variable to a blade file,
+        or expose the object as JSON to a REST API.
       </p>
 
-      <p class="my-4">
-        It allows to render the chart in your views
-        without writting any Javascript, but you can even use it with VueJS components
-        adding the "container()" and "script()" methods as attributes.
+      <p class="my-4 text-gray-900 text-sm">
+        The primarly idea is to write charts without writing any type of Javascript,
+        the package is popular in 'TALL' stack, TailwindCSS, AlphineJS, Laravel & Livewire.
       </p>
     `,
   },
@@ -58,13 +54,13 @@ const portfolio = [
     demo: "",
     url: "https://play.google.com/store/apps/details?id=com.buildawow.losa_group",
     description: `
-        <p class="my-4">
+        <p class="my-4 text-gray-900 text-sm">
             The company needs an app to handle bookings, with different
             locations and a calendar to sync all this bookings,
             to solve this problem, I create an app that has the next features:
         </p>
 
-        <ul class="my-4 pl-8">
+        <ul class="my-4 pl-8 text-gray-900 text-sm">
             <li class="list-disc">list of bookings.</li>
             <li class="list-disc">general info</li>
             <li class="list-disc">calendar of events (from google calendar)</li>
@@ -72,16 +68,16 @@ const portfolio = [
             <li class="list-disc">call booking contacts</li>
         </ul>
 
-        <p class="my-4">
-            I use Laravel to create a admin panel to handle all this data about bookinds,
+        <p class="my-4 text-gray-900 text-sm">
+            I use Laravel to create a admin panel to handle all this data about bookings,
             and handle users of the mobile app and permisions.
         </p>
 
-        <p class="my-4">
+        <p class="my-4 text-gray-900 text-sm">
             Using advance features like:
         </p>
 
-        <ul class="my-4 pl-8">
+        <ul class="my-4 pl-8 text-gray-900 text-sm">
             <li class="list-disc">jobs</li>
             <li class="list-disc">listeners</li>
             <li class="list-disc">observers</li>
@@ -94,7 +90,7 @@ const portfolio = [
             <li class="list-disc">also a REST API to serve the data to the mobile app</li>
         </ul>
 
-        <p>
+        <p class="text-gray-900 text-sm">
             I use Flutter to consume JSON data, using clean and provider patterns,
             creating an app for both platforms Android and IOS with the same code.
         </p>
@@ -111,20 +107,20 @@ const portfolio = [
     url: "https://grupoalta.net/",
     description:
     `
-    <p class="my-4">
+    <p class="my-4 text-gray-900 text-sm">
       The company has several projects, it requires an index page to show data
       about all their projects, this site is created as a Single Page Application.
     </p>
 
-    <p class="my-4">
+    <p class="my-4 text-gray-900 text-sm">
         It uses: Vue and Vue router to handle route params and load data dinamically from a
         config file using the commond JS import and export module.
     </p>
 
-    <p class="my-4">
+    <p class="my-4 text-gray-900 text-sm">
       To handle the metadata I add a Vue meta component from Nuxt to
       add metatags for SEO, and some other community plugins like Vue Sweet-alert2 and
-      vainilla js promise to store the contact form messages in a google sheet.
+      a vainilla js promise (fetch) to store the contact form messages in a google sheet.
     </p>
     `,
   },
@@ -138,13 +134,13 @@ const portfolio = [
     demo: "https://www.youtube.com/watch?v=WneabTv9SrA",
     url: "https://www.empiremusicfestival.com/",
     description: `
-      <p class="my-4">
-      One of the biggest music festival around central and south america,
-      requires a site that reflects the vibes and quality of this event,
-      it requires a high pixel perfection and Sass provides an easy way to get this goal.
+      <p class="my-4 text-gray-900 text-sm">
+        One of the biggest music festival around central and south america,
+        requires a site that reflects the vibes and quality of this event,
+        it requires a high pixel perfection and Sass provides an easy way to get this goal.
       </p>
 
-      <p class="my-4">
+      <p class="my-4 text-gray-900 text-sm">
         This site has many data and user interactions so, it fit
         perfect for VueJS and its directives to get a clean code more
         expressive and fluent, It use Vimeo API to handle this task manipulating it with vainilla Javascript.
@@ -161,71 +157,57 @@ const portfolio = [
     demo: "https://www.youtube.com/watch?v=g_FFEMNiBG0&t=54s",
     url: "",
     description: `
-        <p class="my-4">
+        <p class="my-4 text-gray-900 text-sm">
             Chatbot created for Facebook Messenger to show Twitter trends from any city around the world by consuming Twitter API.
             To handle a conversation it use an endpoint consuming a xml from Facebook, and sending a JSON response from Laravel app,
         </p>
 
-        <p class="my-4">
+        <p class="my-4 text-gray-900 text-sm">
             This is based on chatbot academy project but I add more features:
         </p>
 
-        <ul class="my-4 pl-4">
+        <ul class="my-4 pl-4 text-gray-900 text-sm">
             <li class="list-disc">
                 I add conversation support (the original version just accept the exact city word alone).
             </li>
 
-            <li class="list-disc">
+            <li class="list-disc text-gray-900 text-sm">
                 I add a full conversation feature, to get all cities even if there are write between any phrase.
             </li>
 
-            <li class="list-disc">
+            <li class="list-disc text-gray-900 text-sm">
                 It catch all conversations strings and search for a city,
                 if there is a match, it fetch the city data from twitter API the trends and show it
             </li>
 
-            <li class="list-disc">
+            <li class="list-disc text-gray-900 text-sm">
                 If there are not any city in the phrase it can handle a conversation and even ask
                 if you need trends about another city or just say goodbye.
             </li>
         </ul>
-
-
-
-
     `,
   },
   {
-    slug: "laravel-spa-preset",
+    slug: "pagalo-gt-laravel-package",
     category: "package",
-    name: "Laravel SPA preset",
-    stack: "Laravel, VueJS, VueRouter, Vuex, TailwindCSS",
-    image: "laravel_spa_preset.png",
-    github: "",
+    name: "PagaloGT Laravel package",
+    stack: "Laravel, PagaloGT API",
+    image: "pagalogt_laravel_package.png",
+    github: "https://github.com/ArielMejiaDev/pagalogt",
     demo: "",
-    url: "",
+    url: "https://packagist.org/packages/arielmejiadev/pagalogt",
     description: `
-      <p class="my-4">
-        A very requested package for the community for short or large scale apps.
+      <p class="my-4 text-gray-900 text-sm">
+        You need a simple and fast way to add online payments to your Laravel platform?
+        this is the package for you.
       </p>
-
-      <p class="my-4">
-        Its still in development, at this moment the package provides
-        a variety of Vue and Blade components just to work interchangeable,
-        all Vue components provide events to use them on different Vue methods
-        to make requests or any other actions, all components and a dashboard theme are styled using tailwindCSS.
+      <p class="my-4 text-gray-900 text-sm">
+        You can install the package using composer,
+        to use this package you require an account with PagaloGT payment gateway,
+        the package is available for any project with Laravel 5.5 to 8.
       </p>
-
-      <p>
-        It also provide a initial setup for Vuex modules to just add more modules, and a router to handle all vue router routes.
-        by generating different Laravel fallback routes to mix and match simple Laravel routes and SPA routes as an entry point,
-        for one or different SPA apps inside one Laravel project.
-      </p>
-
-      <p class="my-4">
-        The idea is to add controllers for almost any type of forms and other many requested components,
-        such as modals, actions panels, lists, data component, and much more all using
-        a CLI commands to create this Vue components in a very particular way.
+      <p class="my-4 text-gray-900 text-sm">
+        I AM NOT SPONSORED BY PAGALOGT, it saves you a lot of time reading their docs and adding some helpful methods that you actually will find useful.
       </p>
     `,
   },

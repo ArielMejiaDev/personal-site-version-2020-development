@@ -1,19 +1,19 @@
 <template>
 <section class="text-gray-700 body-font">
-  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-      <img class="object-cover object-center rounded" alt="me" src="hero/me.jpeg">
+  <div class="container flex flex-col items-center px-5 py-24 mx-auto md:flex-row">
+    <div class="w-5/6 mb-10 lg:max-w-lg lg:w-full md:w-1/2 md:mb-0">
+      <img class="object-cover object-center rounded" alt="me" src="hero/me.jpg">
     </div>
-    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Ariel Mejia Dev</h1>
+    <div class="flex flex-col items-center text-center lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 md:items-start md:text-left">
+      <h1 class="mb-4 text-3xl font-medium text-gray-900 title-font sm:text-4xl">Ariel Mejia Dev</h1>
       <p class="mb-8 leading-relaxed">
-        I am a software developer with 5 years of experience working with backend
-        and frontend technologies such as PHP, Javascript, Laravel, VueJS and other technologies,
+        Software developer with 5+ years of experience working with backend
+        and frontend technologies, such as PHP, Javascript, Laravel, VueJS and other technologies,
         I seek to collaborate in a position that allows me to create software with these technologies.
       </p>
       <div class="flex justify-center">
-        <router-link to="/portfolio" class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Portfolio</router-link>
-        <a href="#testimonials" class="ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg">Testimonials</a>
+        <router-link to="/portfolio" class="inline-flex px-6 py-2 text-lg text-white bg-indigo-500 border-0 rounded focus:outline-none hover:bg-indigo-600">Portfolio</router-link>
+        <a href="#testimonials" class="inline-flex px-6 py-2 ml-4 text-lg text-gray-700 bg-gray-200 border-0 rounded focus:outline-none hover:bg-gray-300">Testimonials</a>
       </div>
     </div>
   </div>
