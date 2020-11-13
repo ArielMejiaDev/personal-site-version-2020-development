@@ -1,11 +1,11 @@
 <template>
 <section class="text-gray-700 body-font">
-  <div class="container flex flex-col items-center px-5 py-24 mx-auto md:flex-row">
-    <div class="w-5/6 mb-10 lg:max-w-lg lg:w-full md:w-1/2 md:mb-0">
+  <div class="container flex flex-col items-center px-0 py-24 mx-auto md:flex-row lg:max-w-6xl">
+    <div class="w-5/6 mb-10 lg:max-w-lg md:w-1/2 md:mb-0">
       <img class="object-cover object-center rounded" alt="me" src="hero/me.jpg">
     </div>
-    <div class="flex flex-col items-center text-center lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 md:items-start md:text-left">
-      <h1 class="mb-4 text-3xl font-medium text-gray-900 title-font sm:text-4xl">Ariel Mejia Dev</h1>
+    <div class="flex flex-col items-center w-5/6 text-center lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 md:items-start md:text-left">
+      <h1 class="mb-4 text-3xl font-extrabold text-indigo-600 title-font sm:text-4xl lg:text-5xl">Ariel Mejia Dev</h1>
       <p class="mb-8 leading-relaxed">
         Software developer with 5+ years of experience working with backend
         and frontend technologies, such as PHP, Javascript, Laravel, VueJS and other technologies,
